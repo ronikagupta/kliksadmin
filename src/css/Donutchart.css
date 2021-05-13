@@ -1,0 +1,88 @@
+.chartContainer {
+    margin: 0 auto;
+    /* max-width: 100%; */
+    position: relative;
+    width: 200px;
+  }
+  .chartInner {
+    background: rgba(255, 128, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 22%;
+    right: 20%;
+    bottom: 20%;
+    left: 20%;
+    border-radius: 50%;
+    padding: 1.25em 0;
+    line-height: 120%;
+    z-index: -1; /* Allow tooltips on top */
+    overflow: hidden;
+  }
+  .chartStatus,
+  .chartValue {
+    font-weight: bold;
+  }
+  .chartTarget,
+  .chartDaysLabel {
+    font-size: 0.75em;
+  }
+  .chartDaysRemaining {
+    color: #f90;
+    font-weight: bold;
+    margin-top: 0.25em;
+  }
+  
+  /* Generic styles */
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+  }
+  
+  
+ 
+
+.dot1 {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 9px;
+    background-color: rgb(240, 159, 85);
+    display: inline-block;
+}
+.dot2 {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 9px;
+    background-color: rgb(103, 117, 241);
+    display: inline-block;
+}
+.dot3 {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 9px;
+    background-color: rgb(113, 247, 153);
+    display: inline-block;
+}
+.dot4 {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 9px;
+    background-color: rgb(84, 195, 247);
+    display: inline-block;
+}
+.dot5 {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 9px;
+    background-color: rgb(235, 76, 208);
+    display: inline-block;
+}

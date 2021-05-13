@@ -1,0 +1,352 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.submit1{
+  background-color: #16b396;
+  border-color: #16b396;
+  box-shadow: 0 2px 5px rgb(0 18 71 / 20%);
+  width: 100%;
+  font-size: 22px;
+  height: 50px;
+  color: #FFFFFF;
+    padding: 11px 20px;
+    margin-top: 2%;
+    margin-bottom: -10%;
+    
+}
+.signup{
+  color: gray ;
+  font-size: 25px;
+  margin-left: 21%;
+ 
+}
+
+
+
+.fpwd{
+  color: #16b396 ;
+  font-size: 20px;
+  line-height: 1.1;
+  margin-bottom: 1%;
+  }
+  .fwp{
+    margin-left: 27%;
+    margin-bottom: 1%;
+  }
+
+.eye{
+  background-color: #0a0f0e;
+  height: 50px;
+}
+.Heading2{
+  color: #000000A6;
+  
+  font-size: 28px;
+    font-weight: 800;
+    padding-bottom: 15px;
+    line-height: 1.2;
+    margin-bottom: 8%;
+    line-height: 1.2;
+    box-sizing: border-box;
+    font-family: "Mulish",sans-serif;
+    margin-left: 9%;
+    margin-top: -3%;
+}
+  
+.Heading3{
+  color: #000000A6;
+  font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    line-height: 1.2;
+    margin-bottom: 1%;
+    line-height: 1.2;
+    box-sizing: border-box;
+    font-family: "Mulish",sans-serif;
+    margin-left: 30%;
+    margin-top: -8%;
+    align-items: center;
+ 
+}
+
+::-webkit-input-placeholder{
+  color: #0d0f0f;
+  font-size: 10px;
+}
+input[type=email] {
+  width: 100%;
+  padding: 25px 45px;
+  margin: 8px 0;
+  font-size: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 3%;
+  color: #0e1111;
+
+}
+input[type=password] {
+  width: 100%;
+  padding: 25px 45px;
+  margin: 8px 0;
+  font-size: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #0e1111;
+}
+input[type=textf] {
+  width: 48%;
+  padding: 15px 25px;
+  margin: 8px 0;
+  font-size: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6%;
+  float: left;
+  color: #0e1111;
+  margin-bottom: 5%;
+  margin-left: 0%;
+  /* margin-left: 4%; */
+  
+}
+input[type=textl] {
+  width: 48%;
+  padding: 15px 25px;
+  margin: 8px 0;
+  font-size: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6%;
+  float: right;
+  margin-left: 10%;
+  margin-top: -12%;
+  margin-bottom: 5%;
+  color: #0e1111;
+
+  
+}
+
+input[type=text3] {
+  width: 100%;
+  padding: 25px 45px;
+  margin-left: 17px;
+  font-size: 15px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  align-items: right;
+  float: left;
+  grid-auto-columns: auto;
+  color: #0c0e0d;
+  margin-top: 5%;
+}
+  
+.box1{
+  background-color: #ffff;
+  margin-top: -3%;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+  width: 50%;
+  height: 8%;
+  align: center;
+  margin-left: 25%;
+
+}
+
+form{
+padding: 10%;
+
+}
+.icon1{
+  position:absolute;
+  margin-left: 38%;
+  margin-top: 1%;
+}
+.logo1{
+  margin-top: 2%;
+  margin-left: 45%;
+  width: 100px;
+  align-items: center;
+
+}
+.fname{
+  display: inline; 
+}
+.lname{
+  display: inline; 
+}
+.content-wrapper .reg-names {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.content-wrapper .reg-forms {
+  padding: 10px 0 0;
+  font-size: 18px;
+}
+@media screen and (max-width: 450px) {
+  .box1{
+    background-color:#FFFFFF;
+    margin-top: 2%;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
+    width: 500px;
+    height: 800px; 
+    margin-right: 3%;
+    margin-left: -4%;
+  }
+  .logo{
+    margin-top: 6%;
+    margin-left: 2%;
+    width: 100px;
+    align-items: center;
+  
+  }
+  input[type=email] {
+    width: 100%;
+    padding: 20px 40px;
+    margin: 8px 0;
+    font-size: 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 0%;
+    color: #0e1111;
+    
+  }
+  input[type=password] {
+    width: 100%;
+    padding: 20px 40px;
+    margin: 8px 0;
+    font-size: 15px;
+  
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 0%;
+    color: #0e1111;
+  }
+  
+  
+    
+  ::-webkit-input-placeholder{
+    color: #020202;
+    font-size: 15px;
+  }
+  .icon1{
+    position:absolute;
+    margin-left:350px;
+    height: 20px;
+    margin-top: 6%;
+  }
+  .submit{
+    background-color: #16b396;
+    border-color: #16b396;
+    box-shadow: 0 2px 5px rgb(0 18 71 / 20%);
+    width: 100%;
+    font-size: 22px;
+    height: 40px;
+    color: #FFFFFF;
+      padding: 11px 20px;
+      margin-top: 5%;
+      margin-bottom: 12%;
+      text-align: center;  
+      line-height: 0px;
+  }
+  .fpwd{
+    color: #16b396 ;
+    font-size: 20px;
+    line-height: 1.1;
+    margin-bottom: 15%;
+   
+    }
+    .fw{
+      
+      text-align: center;
+      margin-bottom: 15%;
+      margin-top: 2%;
+      margin-bottom: 4%;
+      font-size: 20px;
+      line-height: 1.1;
+     
+    }
+  .signup{
+    color: gray ;
+    font-size: 15px;
+    margin-left: 10%;
+   
+  }
+  .Heading2{
+    color: #000000A6;
+    
+    font-size: 18px;
+      font-weight: 900;
+      padding-bottom: 15px;
+      line-height: 1.4;
+      margin-bottom: 8%;
+      line-height: 3;
+      box-sizing: border-box;
+      font-family: "Mulish",sans-serif;
+      margin-left: 10%;
+  }
+ 
+  
+  input[type=text1] {
+    width: 100%;
+    padding: 15px 10px;
+    margin: 8px 0;
+    font-size: 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 0%;
+    color: #0e1111;
+    margin-bottom: 8%;
+}
+.Heading1{
+  color: #000000A6;
+
+  font-size: 19px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    line-height: 1.2;
+    margin-bottom: 1%;
+    line-height: 1.2;
+    box-sizing: border-box;
+    font-family: "Mulish",sans-serif;
+    margin-left: 30%;
+    margin-top: -8%;
+ 
+}
+.logo1{
+  margin-top: 6%;
+  margin-left: 40%;
+  width: 100px;
+
+}
+} 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

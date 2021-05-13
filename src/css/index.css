@@ -1,0 +1,282 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.submit{
+  background-color: #16b396;
+  border-color: #16b396;
+  box-shadow: 0 2px 5px rgb(0 18 71 / 20%);
+  width: 100%;
+  font-size: 22px;
+  height: 50px;
+  color: #FFFFFF;
+    padding: 11px 20px;
+    margin-bottom: 12%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Mulish",sans-serif;
+    font-weight: 700;
+    transition: all .3s linear;
+    text-decoration: none;
+    display: inline-block;
+}
+.signup{
+  color: gray ;
+  font-size: 25px;
+  margin-left: 21%;
+  text-decoration: none;
+    display: inline-block;
+ 
+}
+
+
+
+.fpwd{
+  color: #16b396 ;
+  font-size: 15px;
+  line-height: 1.1;
+  margin-top: 2%;
+  font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    -webkit-font-feature-settings: "tnum";
+    font-feature-settings: "tnum","tnum";
+    font-family: "Mulish",sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-left: -2px;
+    text-decoration: none;
+  
+}
+.fp{
+  margin-left: -6%;
+}
+
+ 
+
+.eye{
+  background-color: #16b396;
+  height: 50px;
+}
+.Heading{
+  color: #000000A6;
+  /* margin-top: 7%; */
+  font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 15px;
+    line-height: 1.2;
+    margin-bottom: 6%;
+    line-height: 1.2;
+    box-sizing: border-box;
+    font-family: "Mulish",sans-serif;
+    margin-left: 12%;
+    margin-top: 0%;
+    
+}
+  
+
+::-webkit-input-placeholder{
+  color: #737575;
+  font-size: 23px;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 6.5px 11px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 5%;
+    
+}
+input[type=password] {
+  width: 100%;
+  padding: 6.5px 11px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 5%;
+  line-height: 26px;
+    
+  
+}
+.box{
+  background-color: #FFFFFF;
+  margin-top: -5%;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+  width: 600px;
+  height: 500px;
+  margin-left:28%;
+  margin-bottom: -6%;
+}
+
+.login-form{
+padding: 10%;
+
+}
+.icon{
+  position:absolute;
+  margin-left: 25%;
+  margin-top: 1%;
+}
+.logo{
+  margin-top: 1%;
+  margin-left: 40%;
+  /* border: 1px solid black; */
+  width: 100px;
+
+}
+@media screen and (max-width: 1024px) {
+  .box{
+    /* background-color: #d80808;
+    margin-top: 2%;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+    width: 700px;
+    height: 600px; */
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .box{
+     background-color: #FFFFFF;
+    margin-top: 2%;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+    height: 800px; 
+    margin: auto;
+    width: 100%;
+    border: 3px solid rgb(246, 250, 246);
+    padding: 10px;
+    margin-left: -3%;
+    
+  }
+  .logo_login{
+    margin-top: 8%;
+    margin-left: 28%;
+    /* border: 1px solid black; */
+    width: 100px;
+  
+  }
+  input[type=email] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    font-size: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10%;
+  }
+  input[type=password] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    font-size: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10%;
+  }
+  ::-webkit-input-placeholder{
+    color: #7e807f;
+    font-size: 15px;
+  }
+  .icon{
+    position:absolute;
+    margin-left: 70%;
+    height: 20px;
+    margin-top: 6%;
+  }
+  .submit{
+    background-color: #16b396;
+    border-color: #16b396;
+    box-shadow: 0 2px 5px rgb(0 18 71 / 20%);
+    width: 100%;
+    font-size: 22px;
+    height: 40px;
+    color: #FFFFFF;
+      padding: 11px 20px;
+      margin-top: 8%;
+      margin-bottom: 12%;
+      text-align: center;  
+      line-height: 0px;
+  }
+  .fpwd{
+    color: #16b396 ;
+    font-size: 15px;
+    line-height: 1.1;   
+  }
+  .signup{
+    color: gray ;
+    font-size: 15px;
+    margin-left: 10%;
+   
+  }
+  .Heading{
+    color: #000000A6;
+    /* margin-top: 7%; */
+    font-size: 20px;
+      font-weight: 900;
+      padding-bottom: 15px;
+      line-height: 1.2;
+      margin-bottom: 8%;
+      line-height: 1.2;
+      box-sizing: border-box;
+      font-family: "Mulish",sans-serif;
+      text-align: center;
+      margin-left: 3%;
+  }
+  .fpwd{
+    color: #16b396 ;
+    font-size: 15px;
+    line-height: 1.1;
+    margin-top: 5%;
+    font-variant: tabular-nums;
+      line-height: 1.5715;
+      list-style: none;
+      -webkit-font-feature-settings: "tnum";
+      font-feature-settings: "tnum","tnum";
+      font-family: "Mulish",sans-serif;
+      font-weight: 700;
+      text-align: center;
+      margin-left: -2px;
+  }
+  .fp{
+    margin-left: 3%;
+    margin-top: 3%;
+  }
+
+}

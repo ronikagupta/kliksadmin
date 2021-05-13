@@ -1,0 +1,38 @@
+
+  .e-tab .e-tab-header .e-toolbar-item.e-active .e-tab-text, .e-tab .e-tab-header .e-toolbar-item.e-active .e-tab-icon {
+    color: #16B396;
+}
+.e-tab .e-tab-header .e-indicator {
+    background: #16B396;
+}
+.DateInput_input {
+    font-weight: 200;
+    font-size: 19px;
+    line-height: 24px;
+    color: #484848;
+    background-color: #fff;
+    width: 100%;
+    padding: 11px 11px 9px;
+    border: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid transparent;
+    border-left: 0;
+    border-radius: 0;
+}
+.DateRangePickerInput__withBorder {
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+}
+.DateRangePickerInput {
+    background-color: #fff;
+    display: inline-block;
+}
+/* your data button gentrating files */
+.style_tag__3drh7.style_medium__9hJo2 {
+    min-height: 23px;
+    padding: 4px 8px;
+}
+.style_tag__3drh7.style_blue__34Hq3 {
+    background: #e6f7ff;
+}
